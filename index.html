@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Sorting Algorithm Visualizer</span>
+        <div class="button-container">
+            <button type="button" id="bubble-sort-btn" class="btn btn-dark bubble-sort">Bubble Sort</button>
+            <button type="button" id="selection-sort-btn" class="btn btn-dark selection-sort">Selection Sort</button>
+            <button type="button" id="insertion-sort-btn" class="btn btn-dark insertion-sort">Insertion Sort</button>
+            <button type="button" id="quick-sort-btn" class="btn btn-dark quick-sort">Quick Sort</button>
+            <button type="button" id="merge-sort-btn" class="btn btn-dark merge-sort">Merge Sort</button>
+            <button type="button" id="generate-array-btn" class="btn btn-dark generate-array">Generate New Array</button>
+        </div>
+    </nav>
+
+    <div id="bars-container" class="container">
+        <!-- Bars will be added dynamically here -->
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./JS_FILES/bubble.js"></script>
+    <script src="./JS_FILES/selection.js"></script>
+    <script src="./JS_FILES/insertion.js"></script>
+    <script src="./JS_FILES/quick.js"></script>
+    <script src="./JS_FILES/merge.js"></script>
+
+</body>
+</html>
